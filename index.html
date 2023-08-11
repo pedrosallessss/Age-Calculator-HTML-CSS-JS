@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="container-input"><label for="day">DAY</label>
+        <input type="text" placeholder="DD" class="input" id="txtdia" maxlength="2">
+      </div>
+      <div class="container-input"><label for="MONTH">MONTH</label>
+        <input type="text" placeholder="MM" class="input" id="txtmes" maxlength="2">
+      </div>
+      <div class="container-input"><label for="YEAR">YEAR</label>
+        <input type="text" placeholder="YYYY" class="input" id="txtano" maxlength="4">
+      </div>
+    </div>
+
+    <div class="container-img">
+      <div class="separetor"></div>
+      <img class="foto" src="./assets/images/icon-arrow.svg" alt="aa" onclick="verificar()">
+    </div>
+
+    <div class="calculo">
+      <h1><span id="resAno"> - - </span> years</h1>
+    </div>
+    <div class="calculo">
+      <h1><span id="resMes"> - - </span> months</h1>
+    </div>
+    <div class="calculo">
+      <h1><span id="resDia"> - - </span> days</h1>
+    </div>
+
+
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

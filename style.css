@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 86%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: Poppins;
+  font-size: 72px;
+  font-style: italic;
+}
+
+span {
+  color: hsl(259, 100%, 65%);
+}
+section {
+  width: 700px;
+  height: 650px;
+  background-color: white;
+  margin: auto;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 25%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+  margin: 40px 40px 0 40px;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: hsl(0, 1%, 44%);
+  font-family: Poppins;
+  letter-spacing: 5px;
+  font-size: 12px;
+}
+
+.input {
+  width: 128px;
+  height: 64px;
+  border-radius: 8px;
+  border-color: hsl(0, 0%, 86%);
+  border: 0.5px solid hsl(0, 0%, 86%);
+  padding-left: 15px;
+  margin-top: 5px;
+  font-size: 32px;
+  font-family: Poppins;
+}
+.input:hover {
+  border-color: blue;
+  transition: ease 0.5s;
+}
+
+.foto {
+  left: 570px;
+  bottom: 83px;
+  background-color: hsl(259, 100%, 65%);
+  border-radius: 50%;
+  padding: 20px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.foto:hover {
+  background-color: black;
+  transition: ease 0.5s;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.separetor {
+  height: 2px;
+  background-color: hsl(0, 0%, 86%);
+  width: 85%;
+}
+
+.calculo {
+  line-height: 30px;
+  margin: 40px;
+}
